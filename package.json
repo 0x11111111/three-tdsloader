@@ -1,25 +1,32 @@
 {
   "name": "three-3dsloader",
-  "version": "1.0.2",
-  "homepage": "https://github.com/cs64188/three-tdsloader",
-  "description": "Is the three.js tdsloader from official repo examples",
+  "version": "1.0.3",
+  "homepage": "https://github.com/0x11111111/three-tdsloader",
+  "description": "A Node.js module version of the three.js TDSLoader",
   "main": "TDSLoader.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "three": ">= 0.91"
+    "three": ">=0.125.2"
   },
   "keywords": [
     "tdsloader",
     "3ds",
     "threejs",
-    "three.js"
+    "three.js",
+    "3d",
+    "model",
+    "loader"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cs64188/three-tdsloader.git"
+    "url": "git+https://github.com/0x11111111/three-tdsloader.git"
   },
-  "author": "tomyl",
-  "license": "MIT"
+  "author": "0x11111111",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0x11111111/three-tdsloader/issues"
+  },
+  "homepage": "https://github.com/0x11111111/three-tdsloader#readme"
 }

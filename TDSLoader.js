@@ -321,7 +321,7 @@ THREE.TDSLoader.prototype = {
 		var chunk = this.readChunk( data );
 		var next = this.nextChunk( data, chunk );
 
-		var useBufferGeometry = false;
+		var useBufferGeometry = true;
 		var geometry = null;
 		var uvs = [];
 
